@@ -45,5 +45,14 @@
     margin: 5px;
 }
 
+.title h4 {
+    margin: 16px 0;
+    font-weight: bold;
+}
 
+
+.card-body .card-price, .card-body .card-text {
+    color: black;
+    margin: 0;
+}
 
