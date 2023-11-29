@@ -1,0 +1,49 @@
+
+#menu , #action {
+    display: flex;
+}
+
+#menu .item , #action .item {
+    padding-left: 30px;
+}
+
+#menu .item a {
+    text-decoration: none;
+    color: black;
+}
+
+#action .item {
+    display: flex;
+}
+
+#action .item .phone {
+    margin: auto;
+}
+
+#menu .item .dropdown button {
+    padding: 0;
+    padding-bottom: 5px;
+    border: 0;
+}
+
+#menu .item:hover , #menu .item a:hover {
+    color: #15ac7f;
+}
+
+#action .item button {
+    padding: 0;
+}
+
+#breadcrumb {
+    margin: 16px 0;
+    border-top: 1px solid rgb(217, 217, 217);
+    border-bottom: 1px solid rgb(217, 217, 217);
+    background-color: rgb(250, 250, 255);
+}
+
+#breadcrumb ol {
+    margin: 5px;
+}
+
+
+
