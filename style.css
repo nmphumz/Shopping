@@ -45,14 +45,58 @@
     margin: 5px;
 }
 
-.title h4 {
-    margin: 16px 0;
-    font-weight: bold;
-}
-
-
 .card-body .card-price, .card-body .card-text {
     color: black;
     margin: 0;
 }
 
+.card a {
+    text-decoration: none;
+}
+
+.col-xl-3 .card , .col-xl-2 .card {
+    border: none;
+    margin-bottom: 10px;
+}
+
+.col-xl-3 .card a .card-body {
+    height: 100px;
+}
+
+.col-xl-3 .card a:hover , .col-xl-2 .card a:hover {
+    box-shadow: 0 0 8px rgb(230, 230, 240);
+}
+
+#title a:hover, #title-n a:hover {
+    color: #009adc;
+}
+
+#footer img {
+    width: 1200px;
+}
+
+.footer-content h5 {
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.col-xl-3 .list-item {
+    padding-left: 16px;
+}
+
+.col-xl-3 .list-item a {
+    text-decoration: none;
+    color: black;
+}
+
+#footer .col-xl-3 img {
+    width: 282px
+}
+
+.copyright {
+    color: white;
+    background-color: rgb(59, 59, 59);
+    padding: 7px;
+    font-size: 12px;
+    text-align: center;
+}

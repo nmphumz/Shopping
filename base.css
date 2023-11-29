@@ -17,8 +17,26 @@
     align-items: center;
 }
 
-.products {
-    display: flex;
-    justify-content: space-between;
+#title a h4 {
+    margin: 16px 0;
+    font-weight: bold;
+}
+
+#title a  , #title-n a{
+    text-decoration: none;
+    color: black;
+}
+
+#title-n a h4 {
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+#footer {
+    margin-top: 16px;
+}
+
+#footer .footer-content {
+    margin-top: 16px;
 }
 
