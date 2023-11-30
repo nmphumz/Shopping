@@ -6,7 +6,6 @@
 }
 
 #wrapper {
-    width: 1200px;
     margin: auto;
 }
 
@@ -15,21 +14,24 @@
     justify-content: space-between;
     margin-top: 30px;
     align-items: center;
+    width: 1200px;
+    margin: auto;
 }
 
-#title a h4 {
-    margin: 16px 0;
-    font-weight: bold;
+#breadcrumb .item {
+    width: 1200px;
+    margin: auto;
 }
 
-#title a  , #title-n a{
-    text-decoration: none;
-    color: black;
+/* slide */
+#carouselExampleIndicators {
+    width: 1200px;
+    margin: auto;
 }
 
-#title-n a h4 {
-    margin-bottom: 16px;
-    font-weight: bold;
+#content {
+    width: 1200px;
+    margin: auto;
 }
 
 #footer {
@@ -38,5 +40,6 @@
 
 #footer .footer-content {
     margin-top: 16px;
+    width: 1200px;
+    margin: auto;
 }
-

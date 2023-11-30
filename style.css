@@ -41,8 +41,24 @@
     background-color: rgb(250, 250, 255);
 }
 
+
 #breadcrumb ol {
     margin: 5px;
+}
+
+#title a h4 {
+    margin: 16px 0;
+    font-weight: bold;
+}
+
+#title a, #title-n a {
+    text-decoration: none;
+    color: black;
+}
+
+#title-n a h4 {
+    margin-bottom: 16px;
+    font-weight: bold;
 }
 
 .card-body .card-price, .card-body .card-text {
@@ -71,8 +87,12 @@
     color: #009adc;
 }
 
-#footer img {
-    width: 1200px;
+#footer-image {
+    width: 100%;
+}
+
+#footer-image img {
+    width: inherit;
 }
 
 .footer-content h5 {
